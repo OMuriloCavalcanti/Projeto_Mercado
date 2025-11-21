@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\services\\servicepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\services\\servicepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\services\\interfaces\\iproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\services\\interfaces\\iproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\services\\interfaces\\igenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\services\\interfaces\\igenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\services\\interfaces\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\services\\interfaces\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\services\\serviceproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\services\\serviceproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\services\\servicegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\services\\servicegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|c:\\users\\timeware051\\desktop\\murilo\\apimercado\\apimercado\\services\\interfaces\\ipedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F901B022-2C32-6647-D3E2-DEFB9EA1BE13}|APIMercado\\APIMercado.csproj|solutionrelative:apimercado\\services\\interfaces\\ipedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "APIMercado\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwG4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:00:29.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Models\\Cliente.cs",
+              "RelativeToolTip": "APIMercado\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T15:31:25.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenerics.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\IGenerics.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Services\\Interfaces\\IGenerics.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\IGenerics.cs",
+              "RelativeToolTip": "APIMercado\\Services\\Interfaces\\IGenerics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T15:44:51.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICliente.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\ICliente.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Services\\Interfaces\\ICliente.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\ICliente.cs",
+              "RelativeToolTip": "APIMercado\\Services\\Interfaces\\ICliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T16:03:07.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Models\\Produto.cs",
+              "RelativeToolTip": "APIMercado\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T15:36:51.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\IProduto.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Services\\Interfaces\\IProduto.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\IProduto.cs",
+              "RelativeToolTip": "APIMercado\\Services\\Interfaces\\IProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T16:03:49.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicePedido.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\ServicePedido.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Services\\ServicePedido.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\ServicePedido.cs",
+              "RelativeToolTip": "APIMercado\\Services\\ServicePedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T16:02:01.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Models\\Pedido.cs",
+              "RelativeToolTip": "APIMercado\\Models\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T15:37:55.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\ServiceProduto.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Services\\ServiceProduto.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\ServiceProduto.cs",
+              "RelativeToolTip": "APIMercado\\Services\\ServiceProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T16:04:18.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Program.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Program.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Program.cs",
+              "RelativeToolTip": "APIMercado\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T15:36:17.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\appsettings.json",
+              "RelativeDocumentMoniker": "APIMercado\\appsettings.json",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\appsettings.json",
+              "RelativeToolTip": "APIMercado\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T15:35:51.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\IPedido.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Services\\Interfaces\\IPedido.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\Interfaces\\IPedido.cs",
+              "RelativeToolTip": "APIMercado\\Services\\Interfaces\\IPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T15:59:03.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\ServiceGeneric.cs",
+              "RelativeDocumentMoniker": "APIMercado\\Services\\ServiceGeneric.cs",
+              "ToolTip": "C:\\Users\\Timeware051\\Desktop\\Murilo\\APIMercado\\APIMercado\\Services\\ServiceGeneric.cs",
+              "RelativeToolTip": "APIMercado\\Services\\ServiceGeneric.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T15:49:11.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
