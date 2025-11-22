@@ -41,9 +41,6 @@ namespace APIMercado.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PedidoId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.ToTable("Cliente");
@@ -67,6 +64,8 @@ namespace APIMercado.Migrations
 
                     b.HasIndex("ClienteId");
 
+                    b.HasIndex("ProdutoId");
+
                     b.ToTable("Pedido");
                 });
 
@@ -82,15 +81,10 @@ namespace APIMercado.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("PedidoId")
-                        .HasColumnType("int");
-
                     b.Property<decimal>("Value")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PedidoId");
 
                     b.ToTable("Produto");
                 });
@@ -98,29 +92,25 @@ namespace APIMercado.Migrations
             modelBuilder.Entity("APIMercado.Models.Pedido", b =>
                 {
                     b.HasOne("APIMercado.Models.Cliente", "Cliente")
-                        .WithMany("Pedido")
+                        .WithMany("Pedidos")
                         .HasForeignKey("ClienteId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Cliente");
-                });
+                    b.HasOne("APIMercado.Models.Produto", "Produto")
+                        .WithMany()
+                        .HasForeignKey("ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-            modelBuilder.Entity("APIMercado.Models.Produto", b =>
-                {
-                    b.HasOne("APIMercado.Models.Pedido", null)
-                        .WithMany("Produto")
-                        .HasForeignKey("PedidoId");
+                    b.Navigation("Cliente");
+
+                    b.Navigation("Produto");
                 });
 
             modelBuilder.Entity("APIMercado.Models.Cliente", b =>
                 {
-                    b.Navigation("Pedido");
-                });
-
-            modelBuilder.Entity("APIMercado.Models.Pedido", b =>
-                {
-                    b.Navigation("Produto");
+                    b.Navigation("Pedidos");
                 });
 #pragma warning restore 612, 618
         }

@@ -5,7 +5,7 @@
 namespace APIMercado.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,12 +18,25 @@ namespace APIMercado.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PassWord = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PedidoId = table.Column<int>(type: "int", nullable: false)
+                    PassWord = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Cliente", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Produto",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Value = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Produto", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -44,26 +57,12 @@ namespace APIMercado.Migrations
                         principalTable: "Cliente",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Produto",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Value = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    PedidoId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Produto", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Produto_Pedido_PedidoId",
-                        column: x => x.PedidoId,
-                        principalTable: "Pedido",
-                        principalColumn: "Id");
+                        name: "FK_Pedido_Produto_ProdutoId",
+                        column: x => x.ProdutoId,
+                        principalTable: "Produto",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -72,22 +71,22 @@ namespace APIMercado.Migrations
                 column: "ClienteId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Produto_PedidoId",
-                table: "Produto",
-                column: "PedidoId");
+                name: "IX_Pedido_ProdutoId",
+                table: "Pedido",
+                column: "ProdutoId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Produto");
-
-            migrationBuilder.DropTable(
                 name: "Pedido");
 
             migrationBuilder.DropTable(
                 name: "Cliente");
+
+            migrationBuilder.DropTable(
+                name: "Produto");
         }
     }
 }

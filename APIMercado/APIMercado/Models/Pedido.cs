@@ -1,5 +1,8 @@
-﻿namespace APIMercado.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace APIMercado.Models
 {
+    [Table("Pedido")]
     public class Pedido
     {
         public int Id { get; set; }
