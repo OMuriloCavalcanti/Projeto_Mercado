@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIMercado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae4a61f5d77623796dd93a4363ad85050ddd8c77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6945748a3a910dca0c4dc067f7d9c11c59d45102")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIMercado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIMercado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

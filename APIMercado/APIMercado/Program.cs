@@ -15,6 +15,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped(typeof(IGenerics<>), typeof(ServiceGeneric<>));
 builder.Services.AddScoped<IProduto, ServiceProduto>();
+builder.Services.AddScoped<ICliente, ServiceCliente>();
+builder.Services.AddScoped<IPedido, ServicePedido>();
 
 
 builder.Services.AddSwaggerGen();

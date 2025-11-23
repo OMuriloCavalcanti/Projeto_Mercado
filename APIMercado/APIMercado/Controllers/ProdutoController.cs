@@ -29,7 +29,7 @@ namespace APIMercado.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Produto>> GetById(int id)
+        public async Task<ActionResult<Produto>> GetProdutoById(int id)
         {
             try
             {
@@ -57,7 +57,7 @@ namespace APIMercado.Controllers
                     return BadRequest(ModelState);
 
                 await _IProduto.AddAsync(produto);
-                return CreatedAtAction(nameof(GetById), new { id = produto.Id }, produto);
+                return CreatedAtAction(nameof(GetProdutoById), new { id = produto.Id }, produto);
             }
             catch{
                 return StatusCode(500, "Erro Magnânimo");

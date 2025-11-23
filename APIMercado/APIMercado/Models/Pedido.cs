@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace APIMercado.Models
 {
@@ -8,9 +9,13 @@ namespace APIMercado.Models
         public int Id { get; set; }
 
         public int ClienteId { get; set; }
-        public Cliente Cliente { get; set; }
+        [JsonIgnore]
+        public Cliente? Cliente { get; set; }
 
         public int ProdutoId { get; set; }
-        public Produto Produto { get; set; }
+        
+        [JsonIgnore]
+        public Produto? Produto { get; set; }
+        // Depois fazer uma List<Produto> 
     }
 }

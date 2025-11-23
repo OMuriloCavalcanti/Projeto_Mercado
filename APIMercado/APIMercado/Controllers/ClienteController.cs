@@ -17,7 +17,7 @@ namespace APIMercado.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Cliente>>> Get() 
+        public async Task<ActionResult<IEnumerable<Cliente>>> GetAll() 
         {
             try
             {
@@ -31,7 +31,7 @@ namespace APIMercado.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cliente>> GetById(int id)
+        public async Task<ActionResult<Cliente>> GetClienteById(int id)
         {
             try
             {
@@ -41,26 +41,6 @@ namespace APIMercado.Controllers
                 var clientes = await _ICliente.GetByIdAsync(id);
                 if(clientes == null)
                     return NotFound("Cliente não encontrador");  
-
-                return Ok(clientes);
-            }
-            catch
-            {
-                return StatusCode(500, "Erro Magnânimo");
-            }
-        }
-
-        [HttpGet("{id}/pedidos")]
-        public async Task<ActionResult<Cliente>> GetPedidosClientes(int id)
-        {
-            try
-            {
-                if (id <= 0)
-                    return BadRequest("O id informa é inválido");
-
-                var clientes = await _ICliente.GetPedidoDoCliente(id);
-                if (clientes == null)
-                    return NotFound("Cliente não encontrador");
 
                 return Ok(clientes);
             }
@@ -80,7 +60,7 @@ namespace APIMercado.Controllers
                     return BadRequest(ModelState);
 
                 await _ICliente.AddAsync(cliente);
-                return CreatedAtAction(nameof(GetById), new { id = cliente.Id }, cliente);
+                return CreatedAtAction(nameof(GetClienteById), new { id = cliente.Id }, cliente);
             }
             catch
             {

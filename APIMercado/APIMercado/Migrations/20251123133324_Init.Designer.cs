@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIMercado.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251122122922_Init")]
+    [Migration("20251123133324_Init")]
     partial class Init
     {
         /// <inheritdoc />

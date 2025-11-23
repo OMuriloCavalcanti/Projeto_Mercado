@@ -13,11 +13,5 @@ namespace APIMercado.Services
             _context = OptionsBuilder;
         }
 
-        public async Task<Cliente> GetPedidoDoCliente(int id)
-        {
-            return await _context.Cliente
-                .Include(c => c.Pedidos)
-                .FirstOrDefaultAsync(c => c.Id == id);
-        }
     }
 }

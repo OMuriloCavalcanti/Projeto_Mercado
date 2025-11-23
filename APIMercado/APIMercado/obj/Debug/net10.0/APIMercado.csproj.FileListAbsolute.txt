@@ -199,16 +199,7 @@ C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0
 C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.Logging.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.Options.dll
-C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
 C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Identity.Client.dll
 C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\muner\Downloads\Projeto_Mercado\APIMercado\APIMercado\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll

@@ -10,6 +10,7 @@ namespace APIMercado.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string PassWord { get; set; }
+        [JsonIgnore]
         public List<Pedido>? Pedidos { get; set; }
 
     }
